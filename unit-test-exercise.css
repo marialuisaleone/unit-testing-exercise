@@ -1,0 +1,38 @@
+:root {
+    background: lightgray;
+    min-height: 100%;
+    font-family: 'Karla';
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+ul {
+    font-size: 20px;
+    list-style: none;
+}
+
+.testCase {
+    margin: 20px;
+}
+
+.passed {
+    color: green;
+}
+
+.failed {
+    color: red;
+}
+
+.missingAssertion {
+    color: gray;
+}
+
+.error {
+    color: purple;
+}
