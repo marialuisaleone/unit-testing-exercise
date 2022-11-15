@@ -7,7 +7,7 @@ In this repository you will find a function called `fizzBuzz` in `unit-test-exer
 
 1. It takes a number as input;
 2. If that number is divisible by three, it returns the text “Fizz”;
-3. if that number is divisible by five, it returns the text "Buzz";
+3. If that number is divisible by five, it returns the text "Buzz";
 4. If that number is divisible by **both** three and five, it returns the text "FizzBuzz";
 5. If none of those cases apply, it returns the number itself.
 
@@ -30,14 +30,18 @@ These unit tests are just regular functions which verify that `fizzBuzz` behaves
 
 Follow these steps:
 
-1. Clones this repository;
+1. Clone this repository;
 2. Open `unit-test-exercise.js`;
 3. Find the comments that say "Fill in the logic for your test here";
 4. These comments are inside some pre-filled functions which represent different test cases;
-5. These test cases have generic names (**_test1_**, **_test2_**, etc.). Change them to reflect what you are trying to test.
+5. These test cases have generic names (**_test1_**, **_test2_**, etc.). Change them to reflect what you are trying to test;
 6. Replace the "Fill in the logic for your test here" comments with the logic for your tests;
-7. Run all tests by opening `unit-test-exercise.html` in the browser.
+7. Run all tests by opening `unit-test-exercise.html` in the browser;
 8. Are your tests passing?
+
+### Do I need to modify anything in `unit-test-exercise.html` or `unit-test-exercise.css`?
+
+No.
 
 ## Extra hints and help
 

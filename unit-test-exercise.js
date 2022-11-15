@@ -37,7 +37,6 @@ const allTestCases = [
   {
     test: function test3() {
       // Fill in the logic for your test here
-      return false;
     },
   },
 ];
@@ -53,7 +52,10 @@ for (let testCase of allTestCases) {
     const hasTestPassed = testCase.test();
     if (hasTestPassed === undefined || hasTestPassed === null) {
       testElement.innerHTML = `⚠ ${testCase.test.name}: missing assertion. Did you forget to return a boolean (true/false)?`;
-      testElement.classList.add("missingAssertion");
+      testElement.classList.add("problemInAssertion");
+    } else if (typeof hasTestPassed !== "boolean") {
+      testElement.innerHTML = `⚠ ${testCase.test.name}: malformed assertion. Are you returning something other than true or false?`;
+      testElement.classList.add("problemInAssertion");
     } else {
       const testResult = hasTestPassed ? "passed" : "failed";
       testElement.innerHTML = `${hasTestPassed ? "✓" : "✘"} ${
