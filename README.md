@@ -15,10 +15,12 @@ The `fizzBuzz` function is the solution to a simplified version of **_The FizzBu
 
 ## Important!
 
-**Please do not modify the `fizzBuzz` function!**
+### Please do not modify the `fizzBuzz` function!
+
 I promise it's doing its job, so let's not disturb it.
 
-**Please do not modify anything else except the test cases!**
+### Please do not modify anything else except the test cases!
+
 I have added some comments to help you avoid accidental edits.
 
 ## What you need to do for this exercise
@@ -28,13 +30,14 @@ These unit tests are just regular functions which verify that `fizzBuzz` behaves
 
 Follow these steps:
 
-1. Open `unit-test-exercise.js`;
-2. Find the comments that say "Fill in the logic for your test here";
-3. These comments are inside some pre-filled functions which represent different test cases;
-4. These test cases have generic names (**_test1_**, **_test2_**, etc.). Change them to reflect what you are trying to test.
-5. Replace the "Fill in the logic for your test here" comments with the logic for your tests;
-6. Run all tests by opening `unit-test-exercise.html` in the browser.
-7. Are your tests passing?
+1. Clones this repository;
+2. Open `unit-test-exercise.js`;
+3. Find the comments that say "Fill in the logic for your test here";
+4. These comments are inside some pre-filled functions which represent different test cases;
+5. These test cases have generic names (**_test1_**, **_test2_**, etc.). Change them to reflect what you are trying to test.
+6. Replace the "Fill in the logic for your test here" comments with the logic for your tests;
+7. Run all tests by opening `unit-test-exercise.html` in the browser.
+8. Are your tests passing?
 
 ## Extra hints and help
 
@@ -65,4 +68,4 @@ I have also pre-written one **real** test case to give you some inspiration:
 
 **Long-ish explanation:** the remaining logic in `unit-test-exercise.js` is used to make sure that the test cases are run (they are functions, after all!) and that the results are displayed in a "nice" way when you open `unit-test-exercise.html`.
 
-If you don't understand what's going on, it's normal. You are not expected to understand it and you should just focus on writing the tests.
+If you don't understand what's going on, it's normal and completely expected. That code is just some boilerplate.
