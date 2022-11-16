@@ -23,6 +23,10 @@ I promise it's doing its job, so let's not disturb it.
 
 I have added some comments to help you avoid accidental edits.
 
+### Do I need to modify anything in `unit-test-exercise.html` or `unit-test-exercise.css`?
+
+No.
+
 ## What you need to do for this exercise
 
 Your job is to write unit tests for the `fizzBuzz` function.
@@ -38,10 +42,6 @@ Follow these steps:
 6. Replace the "Fill in the logic for your test here" comments with the logic for your tests;
 7. Run all tests by opening `unit-test-exercise.html` in the browser;
 8. Are your tests passing?
-
-### Do I need to modify anything in `unit-test-exercise.html` or `unit-test-exercise.css`?
-
-No.
 
 ## Extra hints and help
 
